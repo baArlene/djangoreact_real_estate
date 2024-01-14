@@ -91,19 +91,19 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'realestate',
-        'USER': 'postgres',
-        'PASSWORD': 'Maita@25',
-        'HOST': 'localhost',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
         'PORT': '5432',
     }
 }
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = ''
 EMAIL_PORT = '587'
-EMAIL_HOST_USER = 'valcartechnologysolutions@gmail.com'
-EMAIL_HOST_PASSWORD = 'ghjk srwm xxvt fhuv'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 # Password validation
